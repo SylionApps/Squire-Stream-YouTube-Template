@@ -8,6 +8,24 @@
 ## Overview
 Streams is a Squire feature that lets the user watch content available outside of their hard drive. This means a stream is an ordered collection of items that can be watched in Squire. Each stream is encapsulated in an ```stm``` file. ```stm``` files are added to the Squire Helper which then extracts, orders and organizes the contents for the stream so they can be enjoyed from any available Squire client. The format for these files is open and this document explains how to properly create them.
 
+## Youtube Static Stream
+This stream is an example about how you can create your stream without programming knowledges. Just open app.js and replace or add new lines here:
+
+```
+var movies = [
+	{ id : 'tt2147423', quality : '720p', link : 'https://www.youtube.com/watch?v=VUcB4p2oyp8'},
+	{ id : 'tt1722443', quality : '720p', link : 'https://www.youtube.com/watch?v=lV6orhP378Q'}];
+```
+
+writing the imdb code (id key), the correct quality and link. For example:
+
+```
+var movies = [
+	{ id : 'tt2147423', quality : '720p', link : 'https://www.youtube.com/watch?v=VUcB4p2oyp8'},
+	{ id : 'tt1722443', quality : '720p', link : 'https://www.youtube.com/watch?v=lV6orhP378Q'},
+	{ id : 'tt1254207', quality : '720p', link : 'https://www.youtube.com/watch?v=Vpg9yizPP_g'}];
+```
+
 ## STM File
 As mentioned previously a stream is encapsulated in an stm file. These files are written in node.js and a template is available here.
 If you take a look inside the stm file you can see it’s mainly composed of two files:
