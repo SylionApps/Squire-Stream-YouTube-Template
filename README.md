@@ -101,14 +101,14 @@ Here’s a valid JSON response for movies as an example:
   "id" : "tt1254207",
   "link" : "https://www.youtube.com/watch?v=IdejtDN9gyc",
   "quality"  : "1080p",
-  "size": "149946368",
+  "language": "en",
 },
 {
   "id" : "tt1254207",
   "link" : "magnet:?xt=urn:btih:88b2c9fa7d3493b45130b2907d9ca31fdb8ea7b9&dn=Big+Buck+Bunny+1080p&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
   "quality"  : "1080p",
   "seeders"  : "16"
-  "size": "902487334",
+  "language": "en",
 },
 ...]
 ```
@@ -130,7 +130,7 @@ Here’s other example response for shows:
   "episode"  : "9",
   "quality"  : "1080p",
   "seeders"  : "352"
-  "size": "772992851",
+  "language": "es",
 },
 ...]
 ```
