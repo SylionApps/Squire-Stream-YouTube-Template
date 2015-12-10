@@ -83,7 +83,7 @@ When Squire asks your stream for its contents the answer must be a JSON with cer
       - **link** (_required_): link to access the content. This can be a torrent file, a magnet link or a link to YouTube.
       - **quality** (_optional_): video quality (720p by default). Three responses are valid: 1080p, 720p and 480p.
       - **seeders** (_optional_): number of seeders for the link in case it’s a torrent or magnet link.
-      - **size** (_optional_): size in bytes for the content.
+      - **language** (_optional_): language in ISO 639-1 for the content (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
    
    - **Shows Streams**	
       - **id** (_required_): TVDB code for the show.
@@ -92,7 +92,7 @@ When Squire asks your stream for its contents the answer must be a JSON with cer
       - **episode** (_required_): number of episode.
       - **quality** (_optional_): video quality (720p by default). Three responses are valid: 1080p, 720p and 480p.
       - **seeders** (_optional_): number of seeders for the link in case it’s a torrent or magnet link.
-      - **size** (_optional_): size in bytes for the content.
+      - **language** (_optional_): language in ISO 639-1 for the content (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
 Here’s a valid JSON response for movies as an example:
 
